@@ -44,7 +44,7 @@ class CURA_Makeapointment_TListener {
 	
 	  @AfterTestCase
 		def logout() {
-		
+//		
 		WebUI.click(findTestObject('Cura_Pages_OR/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 		WebUI.click(findTestObject('Cura_Pages_OR/Page_CURA Healthcare Service/a_Logout'))
 		}

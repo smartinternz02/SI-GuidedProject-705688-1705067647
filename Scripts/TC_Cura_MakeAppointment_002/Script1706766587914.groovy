@@ -58,9 +58,5 @@ WebUI.verifyElementPresent(findTestObject('Cura_MakeAppointment_OR/Page_CURA Hea
 
 WebUI.verifyTextPresent('Please be informed that your appointment has been booked as following:', false)
 
-
-
 WebUI.closeBrowser()
-
-
 
